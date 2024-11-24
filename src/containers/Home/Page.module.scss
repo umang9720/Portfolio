@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Avant Garde;
+    font-style: normal;
+    font-weight: 600;
+    src: url(../../assessts//fonts/4dd591d8-4168-4263-b05b-7183ddaff1f4.woff2) format("woff2"),
+        url(../../assessts/fonts/90882e39-7091-4415-b231-1e068ccdcc6f.woff) format("woff");
+}
+
+// Global styles for h1 tag
+:global {
+
+    h1,
+    h6 {
+        display: block;
+        font-family: Avant Garde, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        margin-bottom: 0.9375rem;
+
+
+
+    }
+
+    h1 {
+        font-size: 5rem;
+        letter-spacing: -0.05em;
+        line-height: 84%;
+        text-transform: uppercase;
+    }
+
+    h6 {
+        font-size: 0.875rem;
+        letter-spacing: 0.5em;
+        line-height: 130%;
+        text-transform: uppercase;
+    }
+}
+
+.hero-content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.9) 90%), url("../../assessts/images/nebula.png");
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+ }
+  
