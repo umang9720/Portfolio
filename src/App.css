@@ -1,3 +1,81 @@
+@font-face {
+  font-family: Avant Garde;
+  font-style: normal;
+  font-weight: 600;
+  src: url(../src/assessts/fonts/4dd591d8-4168-4263-b05b-7183ddaff1f4.woff2) format("woff2"),
+      url(../src/assessts/fonts/90882e39-7091-4415-b231-1e068ccdcc6f.woff) format("woff");
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 1.875rem;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+h2 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+
+@media (min-width: 1200px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+h3 {
+  font-size: calc(1.3rem + 0.6vw);
+}
+
+@media (min-width: 1200px) {
+  h3 {
+    font-size: 1.75rem;
+  }
+}
+
+h4 {
+  font-size: calc(1.275rem + 0.3vw);
+}
+
+@media (min-width: 1200px) {
+  h4 {
+    font-size: 1.5rem;
+  }
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  margin-bottom: 1.875rem;
+  margin-top: 0;
+}
+
 
 body,
 html {
@@ -10,7 +88,9 @@ html {
   font-weight: 400;
   line-height: 110%;
 }
+
 @media (min-width: 768px) {
+
   body,
   html {
     font-size: calc(8px + 0.78125vw);
@@ -21,14 +101,184 @@ html {
     touch-action: pan-y;
   }
 }
+
 @media (min-width: 1200px) {
+
   body,
   html {
     font-size: 0.9259259259vw;
   }
 }
 
-strong {
-    font-weight: 700;
-    color: #eb5939;
+.body-text,
+.display,
+.h1,
+.h2,
+.h3,
+.h4,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h6 {
+  display: block;
+  font-family: Avant Garde, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.h1,
+h1 {
+  font-size: 5rem;
+  letter-spacing: -0.05em;
+  line-height: 84%;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+
+  .h1,
+  h1 {
+    font-size: 6.875rem;
   }
+}
+
+@media (min-width: 1200px) {
+
+  .h1,
+  h1 {
+    font-size: 8.75rem;
+  }
+}
+
+.h2,
+h2 {
+  font-size: 2.75rem;
+  letter-spacing: -0.04em;
+  line-height: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+
+  .h2,
+  h2 {
+    font-size: 3.75rem;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .h2,
+  h2 {
+    font-size: 5rem;
+  }
+}
+
+.h3,
+h3 {
+  font-size: 1.5rem;
+  letter-spacing: -0.04em;
+  line-height: 110%;
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+
+  .h3,
+  h3 {
+    font-size: 1.875rem;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .h3,
+  h3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .h3,
+  h3 {
+    letter-spacing: -0.03em;
+    line-height: 100%;
+  }
+}
+
+.h4,
+h4 {
+  font-size: 0.875rem;
+  letter-spacing: 0.03em;
+  line-height: 120%;
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+
+  .h4,
+  h4 {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .h4,
+  h4 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .h4,
+  h4 {
+    letter-spacing: 0;
+    line-height: 130%;
+  }
+}
+
+.h5,
+h5 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+@media (min-width: 768px) {
+
+  .h5,
+  h5 {
+    line-height: 130%;
+  }
+}
+
+.h6,
+h6 {
+  font-size: 0.875rem;
+  letter-spacing: 0.5em;
+  line-height: 130%;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+
+  .h6,
+  h6 {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .h6,
+  h6 {
+    font-size: 1rem;
+  }
+}
+
+strong {
+  font-weight: 700;
+  color: #eb5939;
+}

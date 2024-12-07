@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import Page from './containers/Home/Page';
+import Page from './containers/Home/Hover';
 
 function App() {
   return (
